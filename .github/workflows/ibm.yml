@@ -7,7 +7,7 @@ on:
     branches: [ master ]
   schedule:
     - cron: '0 12 * * FRI'
-
+# 上面- cron: '0 12 * * FRI' 中Fri改为*为每天重启
 jobs:
   ibm-cloud-restart:
     runs-on: ubuntu-latest
