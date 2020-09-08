@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: '0 12 * * FRI'
+    - cron: '50 8 * * *'
 # 上面- cron: '0 12 * * FRI' 中Fri改为*为每天重启
 jobs:
   ibm-cloud-restart:
